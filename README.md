@@ -231,6 +231,63 @@ Or use HTTP:
 
 **That's it!** The centralized manager handles everything automatically. 🎉
 
+## 🗑️ Uninstallation
+
+When you need to remove iRolixBot completely from your server:
+
+### Using Interactive Uninstaller
+
+```bash
+# Run the uninstaller script
+./install.sh --uninstall
+```
+
+The script will:
+- ✅ Create a backup before removal
+- ✅ Ask for confirmation
+- ✅ Remove files, services, and configurations
+- ✅ Optionally remove database
+- ✅ Optionally remove system packages
+
+### Manual Uninstallation
+
+If you need to uninstall manually:
+
+```bash
+# Stop services
+sudo systemctl stop irolix-cron.timer
+sudo systemctl disable irolix-cron.timer
+
+# Remove systemd services
+sudo rm -f /etc/systemd/system/irolix-cron.*
+
+# Remove cron jobs
+crontab -l | grep -v "iRolixBot" | crontab -
+
+# Remove web server configs
+sudo rm -f /etc/nginx/sites-enabled/irolix*
+sudo rm -f /etc/apache2/sites-enabled/irolix*
+
+# Remove files
+sudo rm -rf /opt/iRolixBot
+
+# Remove database (optional)
+mysql -u root -p -e "DROP DATABASE your_database_name;"
+mysql -u root -p -e "DROP USER 'your_db_user'@'localhost';"
+```
+
+### What Gets Removed
+
+- 📁 **Files & Directories** - All iRolixBot files
+- 🗄️ **Database** - Tables and data (optional)
+- 🌐 **Web Configs** - Nginx/Apache configurations
+- 🔐 **SSL Certificates** - Let's Encrypt certificates
+- ⏰ **Cron Jobs** - Automated tasks
+- 📡 **Telegram Webhook** - Bot webhook removal
+- 📦 **System Packages** - PHP, MySQL, etc. (optional)
+
+**⚠️ Important:** Always create a backup before uninstalling!
+
 ## ⚙️ Configuration
 
 After installation, customize your bot:
