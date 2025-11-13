@@ -12,6 +12,12 @@
 
 Transform your VPN business with a powerful, feature-rich Telegram bot that automates sales, manages users, and streamlines your operations.
 
+[English](#) • [فارسی](#) • [中文](#) • [Русский](#)
+
+[🌟 Star](https://github.com/iitzSeriZdev/iRolixBot) • [🐛 Report Bug](https://t.me/iRolix_Bot/8) • [💡 Request Feature](https://t.me/iRolix_Bot/10) • [📖 Documentation](#-documentation)
+
+</div>
+
 ---
 
 ## 📸 Dashboard Preview
@@ -28,14 +34,6 @@ Experience a stunning admin interface with:
 - 📊 **Real-time Analytics** - Comprehensive dashboard with charts
 - 🎯 **Intuitive Navigation** - Easy-to-use interface
 - 📱 **Responsive Design** - Works perfectly on all devices
-
-</div>
-
----
-
-[English](#) • [فارسی](#) • [中文](#) • [Русский](#)
-
-[🌟 Star](https://github.com/iitzSeriZdev/iRolixBot) • [🐛 Report Bug](https://t.me/iRolix_Bot/8) • [💡 Request Feature](https://t.me/iRolix_Bot/10) • [📖 Documentation](#-documentation)
 
 </div>
 
