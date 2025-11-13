@@ -1,4 +1,4 @@
-# 🚀 iRolixBot | آیرولیکس
+# 🚀 iRolixBot
 
 <table>
 <tr>
@@ -16,7 +16,7 @@
 
 Transform your VPN business with a powerful, feature-rich Telegram bot that automates sales, manages users, and streamlines your operations.
 
-[English](#) • [فارسی](#) • [中文](#) • [Русский](#)
+[English](#) • [فارسی](README.fa.md) • [中文](README.zh.md) • [Русский](README.ru.md)
 
 [🌟 Star](https://github.com/iitzSeriZdev/iRolixBot) • [🐛 Report Bug](https://t.me/iRolix_Bot/8) • [💡 Request Feature](https://t.me/iRolix_Bot/10) • [📖 Documentation](#-documentation)
 
@@ -213,30 +213,78 @@ Make sure you have:
 
 ## 🚀 Quick Start
 
-### Step 1: Clone the Repository
+### ⚡ One-Command Installation (Recommended for VPS)
+
+The easiest way to install iRolixBot on your VPS server with a single command:
+
+```bash
+sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/install-vps.sh)
+```
+
+**What happens:**
+1. ✅ **Automatic System Update**: The script automatically runs `apt update && apt upgrade`
+2. ✅ **Interactive Menu**: After system update, you'll see a menu:
+   - `1` = Install iRolixBot
+   - `2` = Delete iRolixBot (with backup)
+   - `3` = Delete iRolixBot (without backup - complete removal)
+   - `4` = Update iRolixBot to Last Version
+3. ✅ **Automatic Installation**: Based on your choice, the script will:
+   - Install all prerequisites (PHP 8.2, MariaDB, Nginx, Redis, Composer)
+   - Clone the repository
+   - Set up database and configuration
+   - Configure web server (Nginx)
+   - Set up cron jobs
+   - Configure permissions
+
+**Alternative: Direct Commands** (for automation):
+```bash
+# Install directly
+sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/install-vps.sh) install
+
+# Uninstall with backup
+sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/install-vps.sh) uninstall-with-backup
+
+# Uninstall without backup (complete removal)
+sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/install-vps.sh) uninstall-without-backup
+
+# Update directly
+sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/install-vps.sh) update
+```
+
+**After installation:**
+1. Database credentials are saved to `/tmp/irolix_db_config`
+2. Edit `/opt/iRolixBot/config.php` to add your bot token
+3. Access the panel at `http://YOUR_SERVER_IP/panel`
+4. Complete the setup through the web interface
+
+### 📦 Manual Installation
+
+If you prefer manual installation:
+
+#### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/iitzSeriZdev/iRolixBot.git
 cd iRolixBot
 ```
 
-### Step 2: Install Dependencies
+#### Step 2: Install Dependencies
 
 ```bash
 composer install
 ```
 
-### Step 3: Setup Database
+#### Step 3: Setup Database
 
 Create a MySQL/MariaDB database and note the credentials.
 
-### Step 4: Create Telegram Bot
+#### Step 4: Create Telegram Bot
 
 1. Message [@BotFather](https://t.me/BotFather) on Telegram
 2. Use `/newbot` to create your bot
 3. Save the bot token securely
 
-### Step 5: Run Installation
+#### Step 5: Run Installation
 
 1. Upload files to your web server
 2. Visit `install.php` in your browser
@@ -247,7 +295,7 @@ Create a MySQL/MariaDB database and note the credentials.
    - Set up admin account
    - Complete installation
 
-### Step 6: Setup Cron Jobs
+#### Step 6: Setup Cron Jobs
 
 Configure **just one cron job** (yes, really!):
 
@@ -411,13 +459,12 @@ See [CHANGELOG.md](CHANGELOG.md) for a complete list of changes and updates.
 
 <div align="center">
 
-### Made with ❤️ by iitzSeriZ
+### Made with 💜 by iitzSeriZ
 
 **Star this repo if you find it helpful!** ⭐
 
 [⭐ Star](https://github.com/iitzSeriZdev/iRolixBot) • [🐛 Report Bug](https://t.me/iRolix_Bot/8) • [💡 Request Feature](https://t.me/iRolix_Bot/10) • [📖 Docs](#-documentation)
 
-**Happy Coding! 🚀**
+**#woman_life_freedom**
 
 </div>
-
