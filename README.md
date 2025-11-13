@@ -1,4 +1,4 @@
-# 🚀 iRolixBot
+# 🚀 iRolixBot | آیرولیکس
 
 <table>
 <tr>
@@ -420,3 +420,4 @@ See [CHANGELOG.md](CHANGELOG.md) for a complete list of changes and updates.
 **Happy Coding! 🚀**
 
 </div>
+
