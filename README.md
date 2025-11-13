@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/iRolix%20Logo.jpg" alt="iRolixBot Logo" width="250" height="250">
+
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?logo=php)
