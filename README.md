@@ -18,7 +18,7 @@ Transform your VPN business with a powerful, feature-rich Telegram bot that auto
 
 <div align="center">
 
-![iRolixBot Admin Dashboard](engDashboard.PNG)
+![iRolixBot Admin Dashboard](https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/engDashboard.png)
 
 **Modern, Beautiful Admin Panel with Liquid Glass Design**
 
