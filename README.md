@@ -1,8 +1,10 @@
 # 🚀 iRolixBot
 
-<div align="center">
+<table>
+<tr>
+<td valign="top" width="80%">
 
-<img src="https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/iRolix%20Logo.jpg" alt="iRolixBot Logo" width="250" height="250">
+<div align="center">
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -19,6 +21,15 @@ Transform your VPN business with a powerful, feature-rich Telegram bot that auto
 [🌟 Star](https://github.com/iitzSeriZdev/iRolixBot) • [🐛 Report Bug](https://t.me/iRolix_Bot/8) • [💡 Request Feature](https://t.me/iRolix_Bot/10) • [📖 Documentation](#-documentation)
 
 </div>
+
+</td>
+<td valign="top" width="20%" align="right">
+
+<img src="https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/iRolix%20Logo.jpg" alt="iRolixBot Logo" width="120" height="120" style="border: 3px solid #667eea; border-radius: 15px; padding: 5px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+
+</td>
+</tr>
+</table>
 
 ---
 
