@@ -109,15 +109,6 @@ Manage everything from one place:
 - 🌙 **Dark Mode** - Easy on the eyes
 - 🔔 **Real-time Notifications** - Stay informed
 
-### 📱 Telegram Mini App
-Your store, right in Telegram:
-- 🛍️ **Browse Products** - Beautiful product catalog
-- 🏷️ **Categories** - Easy navigation
-- 🛒 **Quick Purchase** - One-click buying
-- 💳 **Payment Integration** - Seamless checkout
-- 🌙 **Dark Mode** - Comfortable viewing
-- 📱 **Responsive** - Works on all devices
-
 ### 💾 Smart Backup System
 Never lose your data:
 - 💾 **Full Backup** - Complete data protection
@@ -134,7 +125,6 @@ Stay up-to-date effortlessly:
 - 🔄 **Database Migration** - Seamless upgrades
 - 💾 **Auto Backup** - Safe updates
 - ⏪ **Rollback** - Undo if needed
-- 📜 **Update History** - Track all changes
 
 ### 🔔 Notification System
 Keep everyone in the loop:
@@ -142,7 +132,6 @@ Keep everyone in the loop:
 - 👤 **User Notifications** - Personal or broadcast
 - 🎯 **Smart Targeting** - Reach the right people
 - 📊 **Notification History** - Track all messages
-- 🤖 **Auto Notifications** - System events
 
 ### 👥 Advanced Admin Management
 Control who does what:
@@ -150,35 +139,20 @@ Control who does what:
 - 📝 **Custom Descriptions** - Define permissions
 - 🛡️ **Main Admin Protection** - Security first
 - 💬 **Telegram Integration** - Direct messaging
-- 📊 **Activity Tracking** - Monitor actions
-
-### 📁 File Manager
-Handle files with ease:
-- 📤 **Upload Files** - Single or multiple
-- 📥 **Download Files** - Quick access
-- 🗑️ **Delete Files** - Easy cleanup
-- 📦 **ZIP Creation** - Bundle files
-- ✅ **File Validation** - Security checks
-- 📏 **Size Management** - Control storage
 
 ### 🎫 Ticket System
 Provide excellent support:
 - 📝 **Create Tickets** - Easy ticket creation
 - 📊 **Status Tracking** - Know the status
 - ⚡ **Priority Levels** - Urgent to low
-- 📁 **Categories** - Organize tickets
 - 👤 **Admin Assignment** - Assign experts
-- 🔔 **Auto Notifications** - Stay updated
-- 💬 **Reply System** - Quick responses
 
 ### ⏰ Centralized Cron Job Manager
 One cron job to rule them all:
 - ⚡ **Single Setup** - Configure once
 - 🤖 **Auto Scheduling** - Smart timing
 - 🛡️ **Error Handling** - Robust and reliable
-- ⏱️ **Execution Tracking** - Monitor performance
 - 🌐 **CLI & HTTP** - Flexible execution
-- 📊 **Comprehensive Logging** - Full visibility
 
 ### 📊 Telegram Group & Topic Management
 Organize your team:
@@ -186,17 +160,6 @@ Organize your team:
 - 📌 **Topic Creation** - Organize discussions
 - 📊 **Auto Reports** - Scheduled reports
 - ⏰ **Custom Schedules** - Your timing
-- 🎨 **Professional Formatting** - Beautiful reports
-- 📈 **Multiple Report Types** - Sales, tickets, payments
-
-### 📈 Automated Reporting
-Know your business:
-- 📊 **Sales Reports** - Daily, weekly, monthly
-- 🎫 **Ticket Reports** - Support insights
-- 👥 **Admin Reports** - Team activity
-- 💰 **Payment Reports** - Financial tracking
-- 🎨 **Custom Templates** - Your style
-- ⏰ **Auto Scheduling** - Set and forget
 
 ## 📦 Requirements
 
@@ -297,7 +260,7 @@ Create a MySQL/MariaDB database and note the credentials.
 
 #### Step 6: Setup Cron Jobs
 
-Configure **just one cron job** (yes, really!):
+Configure **just one cron job**:
 
 ```bash
 * * * * * /usr/bin/php /path/to/iRolixBot/cron/CronJob.php >> /path/to/iRolixBot/storage/logs/cron_output.log 2>&1
@@ -310,63 +273,6 @@ Or use HTTP:
 ```
 
 **That's it!** The centralized manager handles everything automatically. 🎉
-
-## 🗑️ Uninstallation
-
-When you need to remove iRolixBot completely from your server:
-
-### Using Interactive Uninstaller
-
-```bash
-# Run the uninstaller script
-./install.sh --uninstall
-```
-
-The script will:
-- ✅ Create a backup before removal
-- ✅ Ask for confirmation
-- ✅ Remove files, services, and configurations
-- ✅ Optionally remove database
-- ✅ Optionally remove system packages
-
-### Manual Uninstallation
-
-If you need to uninstall manually:
-
-```bash
-# Stop services
-sudo systemctl stop irolix-cron.timer
-sudo systemctl disable irolix-cron.timer
-
-# Remove systemd services
-sudo rm -f /etc/systemd/system/irolix-cron.*
-
-# Remove cron jobs
-crontab -l | grep -v "iRolixBot" | crontab -
-
-# Remove web server configs
-sudo rm -f /etc/nginx/sites-enabled/irolix*
-sudo rm -f /etc/apache2/sites-enabled/irolix*
-
-# Remove files
-sudo rm -rf /opt/iRolixBot
-
-# Remove database (optional)
-mysql -u root -p -e "DROP DATABASE your_database_name;"
-mysql -u root -p -e "DROP USER 'your_db_user'@'localhost';"
-```
-
-### What Gets Removed
-
-- 📁 **Files & Directories** - All iRolixBot files
-- 🗄️ **Database** - Tables and data (optional)
-- 🌐 **Web Configs** - Nginx/Apache configurations
-- 🔐 **SSL Certificates** - Let's Encrypt certificates
-- ⏰ **Cron Jobs** - Automated tasks
-- 📡 **Telegram Webhook** - Bot webhook removal
-- 📦 **System Packages** - PHP, MySQL, etc. (optional)
-
-**⚠️ Important:** Always create a backup before uninstalling!
 
 ## ⚙️ Configuration
 
@@ -392,35 +298,94 @@ After installation, customize your bot:
 - **Every hour** 🎲 - Lottery system
 - **Every 5 hours** 💾 - Automatic backups
 
-See [cron/README.md](cron/README.md) for detailed information.
+---
 
-## 📚 Documentation
+## 💰 Support Development & Donate
 
-Dive deeper with our comprehensive guides:
+<div align="center">
 
-- 📖 [Installation Guide](INSTALLATION.md) - Detailed setup
-- 💾 [Backup & Update Guide](BACKUP_UPDATE_GUIDE.md) - Data management
-- ⏰ [Cron Jobs Documentation](cron/README.md) - Automation
-- 🆕 [New Features Guide](NEW_FEATURES_GUIDE.md) - Latest features
-- 🔌 [Remnawave Panel Guide](REMNawave_PANEL_GUIDE.md) - Panel setup
+### 🌟 Help Us Build the Future! 🌟
 
-## 🤝 Contributing
+**Your support makes all the difference in the world!**
 
-We love contributions! Here's how you can help:
+We're committed to making iRolixBot the best Telegram bot solution available. Your donations directly fuel faster development, exclusive features, and continuous improvements.
 
-1. 🍴 **Fork** the repository
-2. 🌿 **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. 💾 **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. 📤 **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. 🔀 **Open** a Pull Request
+</div>
 
-### Contribution Guidelines
+### 🚀 Why Your Donation Matters
 
-- ✅ Follow existing code style
-- ✅ Write clear commit messages
-- ✅ Test thoroughly
-- ✅ Update documentation
-- ✅ Be respectful and professional
+Your generous donations enable us to:
+
+- ⚡ **Accelerate Development** - More donations = faster feature releases and updates
+- 🎯 **Build Exclusive Features** - Get access to cutting-edge capabilities that no other bot offers
+- 🛠️ **Enhanced Support** - Priority support for our generous donors
+- 🌟 **Continuous Innovation** - Keep the project alive, thriving, and constantly evolving
+- 🔒 **Better Security** - Invest in security audits and improvements
+- 📚 **Comprehensive Documentation** - Create better guides and tutorials
+
+### 💎 The More You Give, The More You Get!
+
+**Every donation brings us closer to our goals!**
+
+- **Higher donations** = **Priority access** to new features
+- **Faster updates** = **More frequent releases** with bug fixes and improvements
+- **Exclusive features** = **Unique capabilities** that set iRolixBot apart
+- **Better support** = **Faster response times** and dedicated assistance
+
+### 🎯 Current Goal: $100
+
+<div align="center">
+
+#### 🚀 Revolutionary Upgrade at $100! 🚀
+
+**When we reach $100 in total donations (currently at $0):**
+
+</div>
+
+**iRolixBot will transform from a VPN sales bot into a complete e-commerce platform!**
+
+This isn't just an upgrade—it's a complete transformation:
+
+- 🛍️ **Full E-commerce System** - Sell **any product**, not just VPN services
+- 🏪 **Digital Storefront** - Complete online store functionality with beautiful themes
+- 📦 **Unlimited Product Categories** - Organize and manage unlimited product types
+- 💳 **Advanced Payment Gateways** - More payment options for global reach
+- 📊 **Enhanced Analytics** - Detailed sales reports and insights
+- 🎨 **Custom Themes** - Multiple store themes to match your brand
+- 🔔 **Marketing Tools** - Promotions, discounts, coupons, and special offers
+- 🌍 **Multi-store Management** - Manage multiple stores from a single panel
+- 📱 **Mobile-optimized** - Perfect shopping experience on all devices
+- 🔄 **Inventory Management** - Track stock, manage products, and handle orders
+
+**This means iRolixBot won't just be for VPN sellers anymore—it will become a complete marketplace solution for any digital product or service!**
+
+Whether you're selling VPN services, software licenses, digital courses, online subscriptions, or any other digital product, iRolixBot will be your all-in-one solution.
+
+### 💳 Donation Methods
+
+We accept donations through multiple secure methods:
+
+#### 💰 Cryptocurrency
+
+- **💵 USDT (BEP20)**: `0xCaF05b21A518E6750AA43aD87cEB4a725e78a850`
+- **💎 TON**: `UQAg7NaXzzFMvGxqirO9UYwwzseq8pAi3N8fompkKjOFtIzl`
+- **💰 TRX (Tron)**: `TPatJCKdLJs1ZpetLtpC97nsHg8X9G1KRs`
+
+#### 💸 Online Payment
+
+- **🌐 NowPayments**: [Donate via NowPayments](https://nowpayments.io/donation/iitzSeriZ) - Accepts multiple cryptocurrencies and payment methods
+
+<div align="center">
+
+---
+
+**Every donation, no matter the size, helps us improve iRolixBot and bring you better features!** 🙏
+
+**[💸 Donate Now](https://nowpayments.io/donation/iitzSeriZ)** • **[🌟 Star on GitHub](https://github.com/iitzSeriZdev/iRolixBot)** • **[💬 Join Community](https://t.me/iRolix_Bot)**
+
+---
+
+</div>
 
 ## 💬 Support & Community
 
@@ -442,19 +407,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 You're free to use, modify, and distribute this project! 🎉
 
-## 🙏 Acknowledgments
-
-A big thank you to:
-
-- 🌟 **All Contributors** - Your support means everything!
-- 💚 **Open Source Community** - For inspiration and tools
-- 🔌 **VPN Panel Developers** - For amazing APIs
-- 👥 **All Users** - For feedback and trust
-
-## 📝 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for a complete list of changes and updates.
-
 ---
 
 <div align="center">
@@ -463,7 +415,7 @@ See [CHANGELOG.md](CHANGELOG.md) for a complete list of changes and updates.
 
 **Star this repo if you find it helpful!** ⭐
 
-[⭐ Star](https://github.com/iitzSeriZdev/iRolixBot) • [🐛 Report Bug](https://t.me/iRolix_Bot/8) • [💡 Request Feature](https://t.me/iRolix_Bot/10) • [📖 Docs](#-documentation)
+[⭐ Star](https://github.com/iitzSeriZdev/iRolixBot) • [🐛 Report Bug](https://t.me/iRolix_Bot/8) • [💡 Request Feature](https://t.me/iRolix_Bot/10) • [💸 Donate](https://nowpayments.io/donation/iitzSeriZ)
 
 **#woman_life_freedom**
 
