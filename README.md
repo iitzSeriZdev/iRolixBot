@@ -332,48 +332,88 @@ Your generous donations enable us to:
 - **Exclusive features** = **Unique capabilities** that set iRolixBot apart
 - **Better support** = **Faster response times** and dedicated assistance
 
-### 🎯 Current Goal: $100
+### 🎯 Donation Goal: $100
 
 <div align="center">
 
-#### 🚀 Revolutionary Upgrade at $100! 🚀
+#### 🚀 Revolutionary Upgrade Unlocks at $100! 🚀
 
-**When we reach $100 in total donations (currently at $0):**
+**Current Progress: $0 / $100** (0%)
+
+**Help us reach our goal and unlock the future of iRolixBot!**
 
 </div>
 
-**iRolixBot will transform from a VPN sales bot into a complete e-commerce platform!**
+#### What Happens When We Reach $100?
 
-This isn't just an upgrade—it's a complete transformation:
+When we reach **$100 in total donations**, iRolixBot will undergo a **complete transformation** from a VPN sales bot to a **full-featured e-commerce platform**!
 
-- 🛍️ **Full E-commerce System** - Sell **any product**, not just VPN services
-- 🏪 **Digital Storefront** - Complete online store functionality with beautiful themes
-- 📦 **Unlimited Product Categories** - Organize and manage unlimited product types
-- 💳 **Advanced Payment Gateways** - More payment options for global reach
-- 📊 **Enhanced Analytics** - Detailed sales reports and insights
-- 🎨 **Custom Themes** - Multiple store themes to match your brand
-- 🔔 **Marketing Tools** - Promotions, discounts, coupons, and special offers
-- 🌍 **Multi-store Management** - Manage multiple stores from a single panel
-- 📱 **Mobile-optimized** - Perfect shopping experience on all devices
-- 🔄 **Inventory Management** - Track stock, manage products, and handle orders
+**Current Status:** VPN Sales Bot  
+**After $100:** Complete E-commerce Platform
 
-**This means iRolixBot won't just be for VPN sellers anymore—it will become a complete marketplace solution for any digital product or service!**
+#### 🎁 What You'll Get:
 
-Whether you're selling VPN services, software licenses, digital courses, online subscriptions, or any other digital product, iRolixBot will be your all-in-one solution.
+<table>
+<tr>
+<td width="50%">
 
-### 💳 Donation Methods
+**🛍️ E-commerce Features:**
+- Sell **any digital product** (not just VPN)
+- Unlimited product categories
+- Beautiful storefront themes
+- Advanced inventory management
+- Order tracking system
 
-We accept donations through multiple secure methods:
+</td>
+<td width="50%">
 
-#### 💰 Cryptocurrency
+**💼 Business Tools:**
+- Multi-store management
+- Marketing tools (coupons, discounts)
+- Enhanced analytics dashboard
+- Mobile-optimized shopping
+- Global payment gateways
 
-- **💵 USDT (BEP20)**: `0xCaF05b21A518E6750AA43aD87cEB4a725e78a850`
-- **💎 TON**: `UQAg7NaXzzFMvGxqirO9UYwwzseq8pAi3N8fompkKjOFtIzl`
-- **💰 TRX (Tron)**: `TPatJCKdLJs1ZpetLtpC97nsHg8X9G1KRs`
+</td>
+</tr>
+</table>
 
-#### 💸 Online Payment
+**Perfect for selling:**
+- ✅ VPN Services
+- ✅ Software Licenses
+- ✅ Digital Courses
+- ✅ Online Subscriptions
+- ✅ Any Digital Product
 
-- **🌐 NowPayments**: [Donate via NowPayments](https://nowpayments.io/donation/iitzSeriZ) - Accepts multiple cryptocurrencies and payment methods
+**This transformation means iRolixBot becomes your all-in-one solution for any digital business!**
+
+---
+
+### 💳 How to Donate
+
+Choose your preferred payment method:
+
+#### 💰 Cryptocurrency (Direct Transfer)
+
+Copy the address and send your donation:
+
+| Currency | Network | Address |
+|----------|---------|---------|
+| 💵 **USDT** | BEP20 (Binance Smart Chain) | `0xCaF05b21A518E6750AA43aD87cEB4a725e78a850` |
+| 💎 **TON** | The Open Network | `UQAg7NaXzzFMvGxqirO9UYwwzseq8pAi3N8fompkKjOFtIzl` |
+| 💰 **TRX** | Tron Network | `TPatJCKdLJs1ZpetLtpC97nsHg8X9G1KRs` |
+
+> ⚠️ **Important:** Make sure you're using the correct network when sending cryptocurrency!
+
+#### 💸 Online Payment (Recommended)
+
+**🌐 [Donate via NowPayments](https://nowpayments.io/donation/iitzSeriZ)**
+
+NowPayments accepts:
+- 💳 Credit/Debit Cards
+- 💰 100+ Cryptocurrencies
+- 🌍 Multiple payment methods
+- 🔒 Secure & Fast Processing
 
 <div align="center">
 
