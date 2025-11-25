@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![iRolix Logo](iRolix%20Logo/iRolix%20Logo.png)
+<img src="https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/iRolix%20Logo.png" alt="iRolix Logo" style="background: white; padding: 20px; border-radius: 12px; max-width: 300px;">
 
 | [![Версия](https://img.shields.io/badge/версия-1.0.0-blue.svg)](https://github.com/iitzSeriZdev/iRolixBot) [![Лицензия](https://img.shields.io/badge/лицензия-MIT-green.svg)](LICENSE) [![PHP](https://img.shields.io/badge/PHP-8.2%2B-7777BB?logo=php)](https://php.net) ⚡ **Продвинутый Telegram бот для продажи VPN с панелью администратора**
 
