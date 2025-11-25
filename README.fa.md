@@ -2,7 +2,9 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/iRolix%20Logo.png" alt="iRolix Logo" style="background: white; padding: 20px; border-radius: 12px; max-width: 300px;">
+<div style="background: white; padding: 20px; border-radius: 12px; display: inline-block; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/iRolix%20Logo.png" alt="iRolix Logo" style="max-width: 300px; display: block;">
+</div>
 
 | [![نسخه](https://img.shields.io/badge/نسخه-1.0.0-blue.svg)](https://github.com/iitzSeriZdev/iRolixBot) [![مجوز](https://img.shields.io/badge/مجوز-MIT-green.svg)](LICENSE) [![PHP](https://img.shields.io/badge/PHP-8.2%2B-7777BB?logo=php)](https://php.net) ⚡ **ربات پیشرفته تلگرام برای فروش VPN با پنل مدیریتی**
 
