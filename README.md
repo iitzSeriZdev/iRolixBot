@@ -1,16 +1,10 @@
 # 🚀 iRolixBot
 
-<table>
-<tr>
-<td valign="top" width="80%">
-
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?logo=php)
+![iRolix Logo](iRolix%20Logo/iRolix%20Logo.png)
 
-### ⚡ Advanced Telegram VPN Sales Bot with Admin Panel
+| [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/iitzSeriZdev/iRolixBot) [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![PHP](https://img.shields.io/badge/PHP-8.2%2B-7777BB?logo=php)](https://php.net) ⚡ **Advanced Telegram VPN Sales Bot with Admin Panel**
 
 **The Ultimate Solution for VPN Service Providers**
 
@@ -22,202 +16,193 @@ Transform your VPN business with a powerful, feature-rich Telegram bot that auto
 
 </div>
 
-</td>
-<td valign="top" width="20%" align="right">
+---
 
-<img src="https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/iRolix%20Logo.jpg" alt="iRolixBot Logo" width="120" height="120" style="border: 3px solid #667eea; border-radius: 15px; padding: 5px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+## 📋 Table of Contents
 
-</td>
-</tr>
-</table>
+- [✨ Features](#-features)
+- [🎯 Key Highlights](#-key-highlights)
+- [📦 Requirements](#-requirements)
+- [🚀 Quick Start](#-quick-start)
+- [⚙️ Configuration](#️-configuration)
+- [🌐 VPN Panel Support](#-vpn-panel-support)
+- [💳 Payment Gateways](#-payment-gateways)
+- [🔒 Security](#-security)
+- [📚 Documentation](#-documentation)
+- [💬 Support & Community](#-support--community)
+- [💰 Support Development](#-support-development)
+- [📄 License](#-license)
 
 ---
 
-## 📸 Dashboard Preview
+## ✨ Features
 
-<div align="center">
+### 🤖 Bot Features
 
-![iRolixBot Admin Dashboard](https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/engDashboard.png)
+- **📱 Subscription Management**
+  - Purchase subscriptions (type, volume, duration)
+  - Service renewal and extension
+  - Extra volume and days purchase
+  - Test service (one-time)
+  - Service information and details
 
-**Modern, Beautiful Admin Panel with Liquid Glass Design**
+- **👥 User Management**
+  - User account information
+  - Transaction history
+  - Referral statistics
+  - Balance management
 
-Experience a stunning admin interface with:
-- 🎨 **Liquid Glass Effects** - Beautiful transparent design
-- 🌙 **Dark/Light Mode** - Comfortable viewing in any environment
-- 📊 **Real-time Analytics** - Comprehensive dashboard with charts
-- 🎯 **Intuitive Navigation** - Easy-to-use interface
-- 📱 **Responsive Design** - Works perfectly on all devices
+- **💳 Payment System**
+  - Multiple payment gateways (Zarinpal, Card-to-Card, and more)
+  - Automatic payment processing
+  - Invoice management
+  - Payment verification
 
-</div>
+- **🎁 Referral Program**
+  - Unique referral links
+  - Customizable commission (percentage/fixed)
+  - Automatic payout
+  - Referral statistics
+
+- **🎫 Support System**
+  - Ticket-based support
+  - Admin notifications
+  - Message forwarding
+
+### 👨‍💼 Admin Features
+
+- **📊 In-Bot Admin Panel**
+  - User management
+  - Service management
+  - Product management
+  - Panel management
+  - Logs and statistics
+  - Settings configuration
+
+- **🌐 Web Admin Panel**
+  - Complete dashboard with statistics
+  - User management interface
+  - Service management
+  - Product management
+  - VPN panel management
+  - Invoice management
+  - Referral system management
+  - Security monitoring
+  - Comprehensive logging
+  - Multi-language support (English, Persian, Chinese, Russian)
+
+### 🔒 Security Features
+
+- **🛡️ Anti-Spam System**
+  - Configurable click rate limits
+  - Automatic mute functionality
+  - Time-based restrictions
+
+- **🚨 Anti-Fraud System**
+  - Admin activity monitoring
+  - Automatic access revocation
+  - Suspicious activity detection
+
+- **📊 Security Monitoring**
+  - IP tracking
+  - Browser and OS detection
+  - Country detection
+  - Activity logging
+
+- **🔐 Additional Security**
+  - Telegram IP verification
+  - SQL injection prevention
+  - XSS protection
+  - CSRF protection
+  - Rate limiting
+  - Secure session management
 
 ---
 
-## 🎯 Why Choose iRolixBot?
+## 🎯 Key Highlights
 
-iRolixBot isn't just another Telegram bot—it's your complete business solution! 🎉
+- ✅ **Multi-Language Support** - Full support for English, Persian, Chinese, and Russian
+- ✅ **Dual Bot Architecture** - PHP bot for shared hosting, Python bot for VPS
+- ✅ **Multiple VPN Panels** - Support for 12+ VPN panel types
+- ✅ **Payment Gateways** - Integration with Iranian and international payment gateways
+- ✅ **Automated Installation** - One-click installation for both hosting types
+- ✅ **Professional Admin Panel** - Web-based admin panel with modern UI
+- ✅ **Advanced Security** - Anti-spam, anti-fraud, and comprehensive monitoring
+- ✅ **Referral System** - Complete referral and affiliate program
+- ✅ **QR Code Generation** - Custom QR codes with background images
 
-✅ **Fully Automated** - Set it up once and let it work 24/7  
-✅ **Enterprise-Ready** - Built for scale with professional features  
-✅ **Easy to Use** - Intuitive interface that anyone can master  
-✅ **Highly Customizable** - Tailor every aspect to your needs  
-✅ **Multi-Language** - Serve customers in 4 languages  
-✅ **Secure & Reliable** - Built with security and stability in mind  
-
-## ✨ Key Features
-
-### 🌍 Multi-Language Support
-Speak your customers' language! Full support for:
-- **Persian (فارسی)** - Complete RTL support with native fonts
-- **English** - Full localization
-- **Chinese (中文)** - Comprehensive support
-- **Russian (Русский)** - Complete localization
-
-### 🔌 VPN Panel Integration (13+ Panels!)
-Connect to virtually any VPN panel with ease:
-- **Marzban** - Industry-leading panel support
-- **Pasargard** - Seamless integration
-- **Remnawave** - Full API integration
-- **Hiddify** - Complete support
-- **x-ui (single port)** - Advanced integration
-- **Marzneshin** - Full compatibility
-- **Alireza (single & multi)** - Flexible options
-- **WGDashboard** - WireGuard made easy
-- **s_ui** - Streamlined integration
-- **Mikrotik** - Enterprise-grade support
-- **IBSng** - Complete compatibility
-- **Sanaei** - Full support
-- **Manual Sales** - Custom configurations
-
-### 💳 Payment Gateways (7+ Options)
-Accept payments from anywhere:
-- **Zarinpal** - Most popular in Iran
-- **ZarinPay** - Fast and reliable
-- **Aqayepardakht** - Secure transactions
-- **Tronado** - Cryptocurrency support
-- **NowPayments** - Global payments
-- **Card-to-Card** - Instant transfers
-- **Telegram Star Payments** - Native Telegram integration
-
-### 🎨 Beautiful Admin Web Panel
-Manage everything from one place:
-- 🎨 **Modern Design** - Clean, responsive, and beautiful
-- 👥 **User Management** - Complete user control
-- 📊 **Analytics Dashboard** - Real-time insights
-- ⚙️ **Bot Settings** - Fine-tune every detail
-- 🔌 **Panel Management** - Connect and manage panels
-- 💰 **Payment Control** - Monitor all transactions
-- 🌙 **Dark Mode** - Easy on the eyes
-- 🔔 **Real-time Notifications** - Stay informed
-
-### 💾 Smart Backup System
-Never lose your data:
-- 💾 **Full Backup** - Complete data protection
-- 📦 **Partial Backup** - Choose what to backup
-- 📄 **Multiple Formats** - JSON and SQL support
-- 📥 **Easy Download** - Single file or ZIP
-- 📤 **Quick Restore** - Get back online fast
-- ⏰ **Auto Backups** - Set it and forget it
-
-### 🔄 Update System
-Stay up-to-date effortlessly:
-- 📦 **One-Click Updates** - Simple update process
-- ✅ **Version Check** - Automatic compatibility
-- 🔄 **Database Migration** - Seamless upgrades
-- 💾 **Auto Backup** - Safe updates
-- ⏪ **Rollback** - Undo if needed
-
-### 🔔 Notification System
-Keep everyone in the loop:
-- 👥 **Admin Notifications** - Individual or group
-- 👤 **User Notifications** - Personal or broadcast
-- 🎯 **Smart Targeting** - Reach the right people
-- 📊 **Notification History** - Track all messages
-
-### 👥 Advanced Admin Management
-Control who does what:
-- 🎭 **Multiple Levels** - Custom admin roles
-- 📝 **Custom Descriptions** - Define permissions
-- 🛡️ **Main Admin Protection** - Security first
-- 💬 **Telegram Integration** - Direct messaging
-
-### 🎫 Ticket System
-Provide excellent support:
-- 📝 **Create Tickets** - Easy ticket creation
-- 📊 **Status Tracking** - Know the status
-- ⚡ **Priority Levels** - Urgent to low
-- 👤 **Admin Assignment** - Assign experts
-
-### ⏰ Centralized Cron Job Manager
-One cron job to rule them all:
-- ⚡ **Single Setup** - Configure once
-- 🤖 **Auto Scheduling** - Smart timing
-- 🛡️ **Error Handling** - Robust and reliable
-- 🌐 **CLI & HTTP** - Flexible execution
-
-### 📊 Telegram Group & Topic Management
-Organize your team:
-- 👥 **Group Connection** - Connect teams
-- 📌 **Topic Creation** - Organize discussions
-- 📊 **Auto Reports** - Scheduled reports
-- ⏰ **Custom Schedules** - Your timing
+---
 
 ## 📦 Requirements
 
-Make sure you have:
+### Server Requirements
 
-- **PHP** 8.2+ (Latest recommended)
-- **MySQL/MariaDB** 5.7+ (Database)
-- **cURL** extension (API calls)
-- **OpenSSL** extension (Security)
-- **JSON** extension (Data handling)
-- **PDO** extension (Database)
-- **ZipArchive** extension (Backups)
-- **Composer** (Dependencies)
+**For PHP Bot (Shared Hosting):**
+- PHP >= 8.1
+- MySQL/MariaDB >= 5.7
+- Apache/Nginx with mod_rewrite
+- cURL extension
+- PDO MySQL extension
+- mbstring extension
+- GD extension (for QR codes)
+- BCMath extension
+- Write permissions for logs and uploads
+
+**For Python Bot (VPS):**
+- Python 3.9+
+- MySQL/MariaDB >= 5.7
+- Nginx (recommended)
+- Systemd (for service management)
+
+### PHP Extensions
+
+- `pdo_mysql` - Database connection
+- `curl` - HTTP requests
+- `json` - JSON processing
+- `mbstring` - Multibyte string handling
+- `gd` - Image processing (QR codes)
+- `bcmath` - Mathematical operations
+
+### PHP Libraries (Composer)
+
+- `endroid/qr-code` ^4.0 - QR code generation
+- `guzzlehttp/guzzle` ^7.0 - HTTP client
+
+---
 
 ## 🚀 Quick Start
 
-### ⚡ One-Command Installation (Recommended for VPS)
+### 📦 Automated Installation (Recommended)
 
-The easiest way to install iRolixBot on your VPS server with a single command:
+#### For Shared Hosting
+
+1. Upload all project files to your hosting
+2. Navigate to: `https://yourdomain.com/installer/host/install.php`
+3. Follow the installation wizard:
+   - Step 1: Check requirements
+   - Step 2: Configure database
+   - Step 3: Configure bot
+   - Step 4: Automatic installation
+   - Step 5: Complete!
+
+#### For VPS (Ubuntu/Debian)
 
 ```bash
-sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/install-vps.sh)
-```
-
-**What happens:**
-1. ✅ **Automatic System Update**: The script automatically runs `apt update && apt upgrade`
-2. ✅ **Interactive Menu**: After system update, you'll see a menu:
-   - `1` = Install iRolixBot
-   - `2` = Delete iRolixBot (with backup)
-   - `3` = Delete iRolixBot (without backup - complete removal)
-   - `4` = Update iRolixBot to Last Version
-3. ✅ **Automatic Installation**: Based on your choice, the script will:
-   - Install all prerequisites (PHP 8.2, MariaDB, Nginx, Redis, Composer)
-   - Clone the repository
-   - Set up database and configuration
-   - Configure web server (Nginx)
-   - Set up cron jobs
-   - Configure permissions
-
-**Alternative: Direct Commands** (for automation):
-```bash
-# Install directly
-sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/install-vps.sh) install
+# Install with one command
+sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/installer/vps/install.sh) install
 
 # Uninstall with backup
-sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/install-vps.sh) uninstall-with-backup
-
-# Uninstall without backup (complete removal)
-sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/install-vps.sh) uninstall-without-backup
+sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/installer/vps/install.sh) uninstall-with-backup
 
 # Update directly
-sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/install-vps.sh) update
+sudo bash <(curl -sSL https://raw.githubusercontent.com/iitzSeriZdev/iRolixBot/main/installer/vps/install.sh) update
 ```
 
 **After installation:**
+
 1. Database credentials are saved to `/tmp/irolix_db_config`
-2. Edit `/opt/iRolixBot/config.php` to add your bot token
-3. Access the panel at `http://YOUR_SERVER_IP/panel`
+2. Edit `/opt/iRolixBot/bot-php/config.php` to add your bot token
+3. Access the panel at `http://YOUR_SERVER_IP/web-panel`
 4. Complete the setup through the web interface
 
 ### 📦 Manual Installation
@@ -234,6 +219,7 @@ cd iRolixBot
 #### Step 2: Install Dependencies
 
 ```bash
+cd bot-php
 composer install
 ```
 
@@ -243,14 +229,14 @@ Create a MySQL/MariaDB database and note the credentials.
 
 #### Step 4: Create Telegram Bot
 
-1. Message [@BotFather](https://t.me/BotFather) on Telegram
+1. Message @BotFather on Telegram
 2. Use `/newbot` to create your bot
 3. Save the bot token securely
 
 #### Step 5: Run Installation
 
 1. Upload files to your web server
-2. Visit `install.php` in your browser
+2. Visit `installer/host/install.php` in your browser
 3. Follow the intuitive installation wizard:
    - Choose your language
    - Enter database details
@@ -263,16 +249,18 @@ Create a MySQL/MariaDB database and note the credentials.
 Configure **just one cron job**:
 
 ```bash
-* * * * * /usr/bin/php /path/to/iRolixBot/cron/CronJob.php >> /path/to/iRolixBot/storage/logs/cron_output.log 2>&1
+* * * * * /usr/bin/php /path/to/iRolixBot/bot-php/cron/cron.php >> /path/to/iRolixBot/Logs/cron_output.log 2>&1
 ```
 
 Or use HTTP:
 
 ```bash
-* * * * * curl -s https://yourdomain.com/cron/CronJob.php > /dev/null 2>&1
+* * * * * curl -s https://yourdomain.com/bot-php/cron/cron.php > /dev/null 2>&1
 ```
 
 **That's it!** The centralized manager handles everything automatically. 🎉
+
+---
 
 ## ⚙️ Configuration
 
@@ -285,13 +273,15 @@ After installation, customize your bot:
 5. **🛍️ Products** - Create offerings
 6. **📁 Categories** - Organize products
 
+---
+
 ## ⏰ Cron Jobs
 
 ### What Gets Executed Automatically?
 
 - **Every minute** ⚡ - Payments, notifications, messages
 - **Every 2 minutes** 🎁 - Gift system, config testing
-- **Every 3 minutes** 💰 - Plisio payments
+- **Every 3 minutes** 💰 - Payment gateway checks
 - **Every 5 minutes** 📊 - Payment expiration, reports
 - **Every 15 minutes** 🔍 - Status checks, monitoring
 - **Every 30 minutes** ⏳ - Agent expiration
@@ -300,9 +290,111 @@ After installation, customize your bot:
 
 ---
 
-## 💰 Support Development & Donate
+## 🌐 VPN Panel Support
 
-<div align="center">
+### OpexCore Library Panels:
+- ✅ **Marzban** - Modern V2Ray/Xray panel
+- ✅ **Marzneshin** - Advanced VPN panel
+- ✅ **ovPanel** - OpenVPN panel
+- ✅ **Pasarguard** - Secure VPN panel
+- ✅ **Remnawave** - Wave VPN panel
+- ✅ **Guard Panel** - Security-focused panel
+
+### PHP-Based Panels:
+- ✅ **Ali Reza** - Popular Iranian panel
+- ✅ **Ali Reza Single Port** - Single port variant
+- ✅ **3x-ui** - Xray UI panel
+- ✅ **x-ui Single Port** - Single port Xray UI
+- ✅ **S-ui** - Simple UI panel
+- ✅ **Mikrotik** - RouterOS integration
+- ✅ **WGDashboard** - WireGuard dashboard
+- ✅ **Hiddify** - Hiddify panel
+- ✅ **Sanaei** - Sanaei panel
+
+---
+
+## 💳 Payment Gateways
+
+### Iranian Gateways:
+- ✅ **Zarinpal** - Most popular Iranian gateway
+- ✅ **Nowpayment** - Modern payment gateway
+- ✅ **IranPay1** - Iranian payment gateway
+- ✅ **Aqayepardakht** - Payment gateway
+- ✅ **Card-to-Card** - Direct card transfer
+
+### International Gateways:
+- ✅ **Yoomoney** - Russian payment system
+- ✅ **Yookassa** - Yandex payment gateway
+- ✅ **Freekassa** - International gateway
+- ✅ **Heleket** - Payment gateway
+- ✅ **Robokassa** - Russian payment gateway
+- ✅ **Telegram Stars** - Telegram's payment system
+- ✅ **Cryptomus** - Cryptocurrency gateway
+- ✅ **CryptoPay** - Crypto payment gateway
+
+---
+
+## 🔒 Security
+
+### Security Features
+
+- ✅ Telegram IP verification
+- ✅ SQL injection prevention (Prepared Statements)
+- ✅ XSS protection
+- ✅ CSRF protection
+- ✅ Rate limiting
+- ✅ Secure session management
+- ✅ Anti-spam system
+- ✅ Anti-fraud system
+- ✅ Security monitoring
+
+### Security Best Practices
+
+1. **After Installation:**
+   - Delete the `installer` directory
+   - Change default passwords
+   - Set up SSL/TLS certificate
+
+2. **Regular Maintenance:**
+   - Update dependencies regularly
+   - Review logs regularly
+   - Backup database regularly
+
+3. **Server Security:**
+   - Use strong passwords
+   - Enable firewall
+   - Keep system updated
+
+For detailed security information, see [SECURITY.md](SECURITY.md)
+
+---
+
+## 📚 Documentation
+
+- 📖 [Installation Guide](HOST_INSTALLATION_GUIDE.md)
+- 🔒 [Security Guide](SECURITY.md)
+- ⏰ [Cron Setup](CRON_SETUP.md)
+- 📊 [Project Summary](PROJECT_SUMMARY_FOR_HOST.md)
+
+---
+
+## 💬 Support & Community
+
+### Get Help
+
+- 💬 **Telegram Group**: [@iRolix_Bot](https://t.me/iRolix_Bot) - Join our community!
+- 🐛 **Bug Reports**: [Report an Issue](https://t.me/iRolix_Bot/8) - Help us improve!
+- 💡 **Suggestions**: [Share Ideas](https://t.me/iRolix_Bot/10) - Your ideas matter!
+
+### Follow the Developer
+
+- 🐙 **GitHub**: [@iitzSeriZdev](https://github.com/iitzSeriZdev)
+- 🎥 **YouTube**: [@iitzSeriZ](https://youtube.com/@iitzSeriZ)
+- 🐦 **X (Twitter)**: [@iitzSeriZ](https://x.com/iitzSeriZ)
+
+---
+
+## 💰 Support Development
 
 ### 🌟 Help Us Build the Future! 🌟
 
@@ -310,14 +402,12 @@ After installation, customize your bot:
 
 We're committed to making iRolixBot the best Telegram bot solution available. Your donations directly fuel faster development, exclusive features, and continuous improvements.
 
-</div>
-
 ### 🚀 Why Your Donation Matters
 
 Your generous donations enable us to:
 
 - ⚡ **Accelerate Development** - More donations = faster feature releases and updates
-- 🎯 **Build Exclusive Features** - Get access to cutting-edge capabilities that no other bot offers
+- 🎯 **Build Exclusive Features** - Get access to cutting-edge capabilities
 - 🛠️ **Enhanced Support** - Priority support for our generous donors
 - 🌟 **Continuous Innovation** - Keep the project alive, thriving, and constantly evolving
 - 🔒 **Better Security** - Invest in security audits and improvements
@@ -332,82 +422,23 @@ Your generous donations enable us to:
 - **Exclusive features** = **Unique capabilities** that set iRolixBot apart
 - **Better support** = **Faster response times** and dedicated assistance
 
-### 🎯 Donation Goal: $100
-
-<div align="center">
-
-#### 🚀 Revolutionary Upgrade Unlocks at $100! 🚀
-
-**Current Progress: $0 / $100** (0%)
-
-**Help us reach our goal and unlock the future of iRolixBot!**
-
-</div>
-
-#### What Happens When We Reach $100?
-
-When we reach **$100 in total donations**, iRolixBot will undergo a **complete transformation** from a VPN sales bot to a **full-featured e-commerce platform**!
-
-**Current Status:** VPN Sales Bot  
-**After $100:** Complete E-commerce Platform
-
-#### 🎁 What You'll Get:
-
-<table>
-<tr>
-<td width="50%">
-
-**🛍️ E-commerce Features:**
-- Sell **any digital product** (not just VPN)
-- Unlimited product categories
-- Beautiful storefront themes
-- Advanced inventory management
-- Order tracking system
-
-</td>
-<td width="50%">
-
-**💼 Business Tools:**
-- Multi-store management
-- Marketing tools (coupons, discounts)
-- Enhanced analytics dashboard
-- Mobile-optimized shopping
-- Global payment gateways
-
-</td>
-</tr>
-</table>
-
-**Perfect for selling:**
-- ✅ VPN Services
-- ✅ Software Licenses
-- ✅ Digital Courses
-- ✅ Online Subscriptions
-- ✅ Any Digital Product
-
-**This transformation means iRolixBot becomes your all-in-one solution for any digital business!**
-
----
-
 ### 💳 How to Donate
 
 Choose your preferred payment method:
 
 #### 💰 Cryptocurrency (Direct Transfer)
 
-Copy the address and send your donation:
-
-| Currency | Network | Address |
-|----------|---------|---------|
-| 💵 **USDT** | BEP20 (Binance Smart Chain) | `0xCaF05b21A518E6750AA43aD87cEB4a725e78a850` |
-| 💎 **TON** | The Open Network | `UQAg7NaXzzFMvGxqirO9UYwwzseq8pAi3N8fompkKjOFtIzl` |
-| 💰 **TRX** | Tron Network | `TPatJCKdLJs1ZpetLtpC97nsHg8X9G1KRs` |
+| Currency    | Network                     | Address                                          |
+| ----------- | --------------------------- | ------------------------------------------------ |
+| 💵 **USDT** | BEP20 (Binance Smart Chain) | 0xCaF05b21A518E6750AA43aD87cEB4a725e78a850       |
+| 💎 **TON**  | The Open Network            | UQAg7NaXzzFMvGxqirO9UYwwzseq8pAi3N8fompkKjOFtIzl |
+| 💰 **TRX**  | Tron Network                | TPatJCKdLJs1ZpetLtpC97nsHg8X9G1KRs               |
 
 > ⚠️ **Important:** Make sure you're using the correct network when sending cryptocurrency!
 
 #### 💸 Online Payment (Recommended)
 
-**🌐 [Donate via NowPayments](https://nowpayments.io/donation/iitzSeriZ)**
+**🌐 Donate via NowPayments**
 
 NowPayments accepts:
 - 💳 Credit/Debit Cards
@@ -415,31 +446,9 @@ NowPayments accepts:
 - 🌍 Multiple payment methods
 - 🔒 Secure & Fast Processing
 
-<div align="center">
-
----
-
 **Every donation, no matter the size, helps us improve iRolixBot and bring you better features!** 🙏
 
-**[💸 Donate Now](https://nowpayments.io/donation/iitzSeriZ)** • **[🌟 Star on GitHub](https://github.com/iitzSeriZdev/iRolixBot)** • **[💬 Join Community](https://t.me/iRolix_Bot)**
-
 ---
-
-</div>
-
-## 💬 Support & Community
-
-### Get Help
-
-- 💬 **Telegram Group**: [@iRolix_Bot](https://t.me/iRolix_Bot) - Join our community!
-- 🐛 **Bug Reports**: [Report an Issue](https://t.me/iRolix_Bot/8) - Help us improve!
-- 💡 **Suggestions**: [Share Ideas](https://t.me/iRolix_Bot/10) - Your ideas matter!
-
-### Follow the Developer
-
-- 🐙 **GitHub**: [@iitzSeriZdev](https://github.com/iitzSeriZdev)
-- 🎥 **YouTube**: [@iitzSeriZ](https://www.youtube.com/@iitzSeriZ)
-- 🐦 **X (Twitter)**: [@iitzSeriZ](https://x.com/iitzSeriZ)
 
 ## 📄 License
 
@@ -455,7 +464,7 @@ You're free to use, modify, and distribute this project! 🎉
 
 **Star this repo if you find it helpful!** ⭐
 
-[⭐ Star](https://github.com/iitzSeriZdev/iRolixBot) • [🐛 Report Bug](https://t.me/iRolix_Bot/8) • [💡 Request Feature](https://t.me/iRolix_Bot/10) • [💸 Donate](https://nowpayments.io/donation/iitzSeriZ)
+⭐ [Star](https://github.com/iitzSeriZdev/iRolixBot) • 🐛 [Report Bug](https://t.me/iRolix_Bot/8) • 💡 [Request Feature](https://t.me/iRolix_Bot/10) • 💸 [Donate](#-support-development)
 
 **#woman_life_freedom**
 
